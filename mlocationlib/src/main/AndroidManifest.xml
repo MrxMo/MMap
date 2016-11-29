@@ -62,7 +62,10 @@
         <!-- gaode 设置key -->
         <meta-data
             android:name="com.amap.api.v2.apikey"
-            android:value="6327387ee4ebe2ee113f2b64def6eebc" />
+            android:value="bcc5329ea361f319bf5682b267573bf9"
+            />
+        <!-- android:value="bcc5329ea361f319bf5682b267573bf9" 众筹-->
+        <!--android:value="6327387ee4ebe2ee113f2b64def6eebc"  众口味-->
 
         <service android:name="com.amap.api.location.APSService"/>
     </application>
