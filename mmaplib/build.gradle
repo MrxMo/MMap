@@ -22,5 +22,5 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.2.0'
-    compile files('libs/AMap_3DMap_V3.4.0_20160809.jar')
+    compile files('libs/Android_Map3D_SDK_V4.1.3_20161208.jar')
 }

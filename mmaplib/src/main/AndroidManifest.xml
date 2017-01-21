@@ -36,9 +36,9 @@
         >
 
         <!-- gaode 设置key -->
-        <meta-data
-            android:name="com.amap.api.v2.apikey"
-            android:value="6327387ee4ebe2ee113f2b64def6eebc"/>
+        <!--<meta-data-->
+            <!--android:name="com.amap.api.v2.apikey"-->
+            <!--android:value="6327387ee4ebe2ee113f2b64def6eebc"/>-->
 
     </application>
 
