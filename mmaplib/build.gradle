@@ -10,9 +10,9 @@ android {
         versionCode 1
         versionName "1.0"
 
-        ndk {
-            abiFilters "armeabi", "armeabi-v7a", "arm64-v8a", "arm64-v8a" //, "x86", "x86_64"
-        }
+//        ndk {
+//            abiFilters "armeabi", "armeabi-v7a", "arm64-v8a", "arm64-v8a" //, "x86", "x86_64"
+//        }
 
     }
 
@@ -28,5 +28,6 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.2.0'
-    compile 'com.amap.api:3dmap:5.1.0'
+//    compile 'com.amap.api:3dmap:5.1.0'
+    compile files('libs/Android_Map3D_SDK_V5.1.0_20170518.jar')
 }

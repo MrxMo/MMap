@@ -22,6 +22,6 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.2.0'
-
-    compile 'com.amap.api:location:3.4.0'
+//    compile 'com.amap.api:location:3.4.0'
+    compile files('libs/AMap_Location_V3.4.0_20170427.jar')
 }
